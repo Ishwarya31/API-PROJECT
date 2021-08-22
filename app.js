@@ -7,8 +7,8 @@ const getData = async (link) => {
     return resData
 }
 
-content.innerHTML = `<div class="spinner-border text-primary" role="status">
- 
+ content.innerHTML = `<div class="spinner-border text-primary" role="status">
+<span class="visually-hidden"></span>
 </div> `
 
 getData("https://restcountries.eu/rest/v2/all")
