@@ -1,13 +1,4 @@
-/* body{
-    display:flex;
-    justify-content:center;
-    display:cover;
-    height:200vh;
-    background-image:linear-gradient(red,indigo,blue);
-    
-}
-   */
-
+ 
 body{
     width:auto;
     height:auto;
@@ -18,21 +9,3 @@ body{
 
 }
 
-.loader{
-    border:16px solid #f3f3f3;
-    border-radius:50%;
-    border-top:16px solid #3498db;
-    width:120px;
-    height:120px;
-    -webkit-animation:2s linear infinite;
-    animation:spin 2s linear infinite;
-}
-@webkit-keyframes spin{
-    0%{-webkit-transform:rotate(0deg);}
-    100%{-webkit-transform:rotate(360deg);}
-}
-@keyframes spin{
-    0%{-webkit-transform:rotate(0deg);}
-    100%{-webkit-transform:rotate(360deg);}
-}
-    
